@@ -1,2 +1,11 @@
 *DS_Store
 *~
+*/HELLO.o*
+05-job/hello
+06-modules/2Dfftw
+06-modules/input.txt
+06-modules/lambda_c++14
+06-modules/output.txt
+*a.out
+07-compile/dset.h5
+07-compile/init_random_seed.o
