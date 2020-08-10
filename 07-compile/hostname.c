@@ -6,7 +6,7 @@
 #include <unistd.h>
 
 
-main(int argc, char **argv ) {
+int main(int argc, char **argv ) {
     int rank, size;
     int buflen = 512;
     char name[buflen];
@@ -18,8 +18,9 @@ main(int argc, char **argv ) {
     gethostname(name, buflen);
     
     printf( "P rank %d of %d, host %s\n", rank, size, name);
-    sleep(60);
+    sleep(10);
 
     MPI_Finalize();
+    return 0;
 }
 
